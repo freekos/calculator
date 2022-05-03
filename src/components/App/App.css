@@ -1,0 +1,98 @@
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.board {
+    position: relative;
+    right: 3%;
+    top: 100px;
+
+    width: 500px;
+    height: 700px;
+
+
+    background: slategrey;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.display {
+    position: absolute;
+    left: 5%;
+    top: 5%;
+
+    width: 450px;
+    height: 100px;
+
+    background:lightsteelblue;
+    border: 1px solid;
+}
+
+.display_item {
+    position: relative;
+
+    width: 100%;
+    height: 100%;
+}
+
+.display_p {
+    position: absolute;
+    bottom: 5%;
+    right: 2%;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 80px;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+
+    width: 450px;
+    height: 500px;
+}
+
+.button1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+
+    position: absolute;
+    left: 2%;
+    bottom: 2%;
+
+    width: 330px;
+    height: 355px;
+}
+
+.button2 {
+    display: flex;
+    align-content: flex-start;
+
+    position: absolute;
+    left: 2%;
+    top: 6%;
+
+    width: 430px;
+    height: 85px;
+}
+
+.button3 {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+
+    position: absolute;
+    right: 3%;
+    bottom: 3.3%;
+
+    width: 100px;
+    height: 350px;
+}
